@@ -1,0 +1,19 @@
+{
+  "name": "activity-generator",
+  "version": "1.0.0",
+  "description": "An app that generates activities for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keidyz/activity-generator.git"
+  },
+  "author": "kzapra@gmail.com",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/keidyz/activity-generator/issues"
+  },
+  "homepage": "https://github.com/keidyz/activity-generator#readme"
+}
