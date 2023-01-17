@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #edf6f9;
+    --secondary-color: #006d77;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    min-height: -moz-available;
+    min-height: -webkit-fill-available;
+    min-height: fill-available;
+    padding: 15px;
+}
+
+.container__title {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 8vw;
+    margin: 100px 0;
+}
+
+.container__activity {
+    text-align: center;
+    font-size: 5vw;
+    min-height: 12vw;
+    margin: 100px 0;
+}
+
+.container__activity--visible {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.container__activity--hidden {
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.container__main {
+    display: flex;
+    justify-content: center;
+}
+
+.container__main__generate-button {
+    background-color: var(--secondary-color);
+    border: 0;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 3vw;
+}
+
+@media only screen and (max-width: 700px) {
+    .container__title {
+        font-size: 9vw;
+    }
+    .container__activity {
+        font-size: 6vw;
+        min-height: 14vw;
+    }
+    .container__main__generate-button {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container__title {
+        margin: 50px 0;
+        font-size: 12vw;
+    }
+    .container__activity {
+        font-size: 8vw;
+        min-height: 30vw;
+    }
+    .container__main__generate-button {
+        font-size: 6vw;
+    }
+}
+
+.container__github {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container__github__text {
+    margin-left: 10px;
+    color: black;
+}
