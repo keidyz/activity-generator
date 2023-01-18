@@ -8,6 +8,8 @@ Visit: https://keidyz.github.io/activity-generator/
 
 Click the generate button and you'll be shown a simple activity that you can do on your own in under 5 minutes.
 
+Please make sure your commit messages start with a capital letter and is descriptive.
+
 ## Contributing
 Feel free to contribute or add more activities.
 
