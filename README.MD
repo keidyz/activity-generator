@@ -8,12 +8,12 @@ Visit: https://keidyz.github.io/activity-generator/
 
 Click the generate button and you'll be shown a simple activity that you can do on your own in under 5 minutes.
 
-Please make sure your commit messages start with a capital letter and is descriptive.
-
 ## Contributing
 Feel free to contribute or add more activities.
 
 You can do so by forking this repository, creating a branch in your fork, and then opening a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in this repository.
+
+Please make sure your commit messages start with a capital letter and is descriptive.
 
 ## Local usage
 - clone the repository: `git clone git@github.com:keidyz/activity-generator.git` (or download it to your local)
